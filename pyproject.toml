@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "regressao-linear"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme Canfield <guilherme.canfield87@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+numpy = "^2.0.1"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.1"
+plotly = "^5.23.0"
+scipy = "^1.14.0"
+statsmodels = "^0.14.2"
+scikit-learn = "^1.5.1"
+pingouin = "^0.5.4"
+emojis = "^0.7.0"
+statstests = "^1.0.7"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
