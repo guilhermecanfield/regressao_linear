@@ -18,6 +18,8 @@ scikit-learn = "^1.5.1"
 pingouin = "^0.5.4"
 emojis = "^0.7.0"
 statstests = "^1.0.7"
+networkx = "^3.3"
+nbformat = "^5.10.4"
 
 
 [tool.poetry.group.dev.dependencies]
