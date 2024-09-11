@@ -22,3 +22,9 @@ Excluir variáveis sem significância estatística em um modelo de regressão li
 ---
 
 Apesar de a remoção de variáveis não significativas às vezes resultar em uma queda no \( R^2 \), isso ocorre porque o \( R^2 \) reflete apenas o ajuste global do modelo aos dados, incluindo variáveis irrelevantes que podem aumentar artificialmente o valor. No entanto, o objetivo é ter um modelo parsimonioso, onde as variáveis incluídas tenham um impacto real, e não maximizar o \( R^2 \) a todo custo.
+
+## Resumo Sobre Modelos Lineares e Não Lineares GLM (4 primeiras aulas)
+
+![alt text](image.png)
+
+![alt text](image-1.png)
