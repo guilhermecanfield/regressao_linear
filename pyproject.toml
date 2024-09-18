@@ -23,6 +23,7 @@ nbformat = "^5.10.4"
 googletrans = "^3.0.0"
 requests = "^2.32.3"
 tdqm = "^0.0.1"
+pymer4 = "^0.8.2"
 
 
 [tool.poetry.group.dev.dependencies]
