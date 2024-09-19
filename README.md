@@ -62,6 +62,40 @@ Esse problema é comum quando pesos são manualmente ajustados sem respaldo esta
 
 ![alt text](image-3.png)
 
+# Regressão Logística: Quando Utilizar
+
+A **regressão logística** é um método de análise preditiva indicado para situações onde o **resultado ou variável dependente** é **categórica binária** ou **multiclasse**. Em outras palavras, ela é usada para modelar eventos onde a resposta esperada assume valores discretos, como "sim" ou "não", "sucesso" ou "fracasso", "0" ou "1". É amplamente utilizada em problemas de **classificação**, onde queremos prever a probabilidade de ocorrência de um determinado evento.
+
+## Situações típicas para usar regressão logística:
+
+1. **Classificação binária**: Quando há duas possíveis saídas (0 ou 1, verdadeiro ou falso, etc.).
+   - **Exemplo**: Prever se um cliente vai ou não comprar um produto com base em variáveis como idade, renda, histórico de compras, etc.
+
+2. **Risco de doença**: Identificação de pacientes em risco de desenvolver uma determinada condição de saúde.
+   - **Exemplo**: Prever a probabilidade de uma pessoa ter diabetes com base em fatores como idade, índice de massa corporal (IMC), histórico familiar, entre outros.
+
+3. **Detecção de fraudes**: Classificar transações bancárias como fraudulentas ou não com base em várias características, como o valor da transação, localização, comportamento do usuário, etc.
+
+4. **Churn de clientes**: Prever se um cliente vai deixar de usar um serviço (churn) com base em suas interações, padrões de uso e histórico.
+   - **Exemplo**: Uma empresa de telecomunicações pode usar regressão logística para prever se um cliente vai cancelar o serviço.
+
+5. **Classificação de emails**: Classificação automática de emails como spam ou não spam.
+   - **Exemplo**: Baseando-se em características do conteúdo do email, como remetente, frequência de palavras-chave, etc.
+
+6. **Resultados eleitorais**: Modelar a probabilidade de um candidato ganhar uma eleição com base em fatores como renda, educação e localidade dos eleitores.
+   
+7. **Segmentação de marketing**: Identificar o perfil de clientes que têm mais probabilidade de responder a uma campanha de marketing específica.
+   - **Exemplo**: Prever se um cliente vai abrir ou não um e-mail de uma campanha publicitária.
+
+## Por que usar a regressão logística?
+
+A **regressão logística** é ideal quando:
+- O resultado que você está tentando prever é categórico.
+- Você quer obter **probabilidades** associadas às classes (ou seja, a probabilidade de um evento ocorrer ou não).
+- Você deseja interpretar facilmente os coeficientes para entender como cada variável preditora afeta a probabilidade do evento ocorrer.
+
+A regressão logística é **muito interpretável** e oferece um bom ponto de partida para modelar problemas de classificação, especialmente quando o foco está na compreensão dos efeitos das variáveis independentes (preditoras).
+
 ### Distribuição de Poisson e Poisson Gama
 
  *O que difere uma Distribuição de Poisson de uma Distribuição Poisson Gama (Binomial Negativa) é a superdisperção (calda longa). Em termos de cálculo, se a ``média **NÃO É** estatísticamente diferente da variância caracteriza uma **Distribuição de Poisson**``, se a ``variância é estatísticamente superior a média caracteriza uma **Distribuição de Poisson Gama (Binomial Negativa)**`` pois essa diferença caracteriza a superdispersão (cauda longa)* 
